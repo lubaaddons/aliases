@@ -2,7 +2,7 @@
 
 use Luba\Aliases;
 
-public function __autoload($classname)
+function __autoload($classname)
 {
 	$class = Aliases::get($classname);
 
