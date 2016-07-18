@@ -1,0 +1,19 @@
+{
+    "name": "lubaaddons/aliases",
+    "description": "Aliases configuration for global namespaces in Luba",
+    "version": "0.1",
+    "authors": [
+        {
+            "name": "Flo Stone"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Luba\\": "src/"
+        },
+        "files": [
+            "autoload/autoload.php"
+        ]
+    }
+}
+
